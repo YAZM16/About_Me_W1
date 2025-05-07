@@ -97,3 +97,54 @@ nav ul li a.active {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+/* Contact Form */
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #00bcd4;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: white;
+    color: #00bcd4;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ddd;
+}
